@@ -111,6 +111,10 @@ if (url.exists(stormDataURL)) {
     }
 }
 
+#
+# If for some reasons the data files should no longer be available at the original 
+# location, copies can be found here.
+# https://github.com/bjoernsteffens/stormanalysis
 
 #
 # Read the bz2 file into a data frame.
@@ -456,6 +460,11 @@ if (url.exists(stormDataURL)) {
         write.csv(date_Downloaded, file = stormDwnLdDate )
     }
 }
+
+#
+# If for some reasons the data files should no longer be available at the original 
+# location, copies can be found here.
+# https://github.com/bjoernsteffens/stormanalysis
 
 #
 # Read the bz2 file into a data frame.
