@@ -45,6 +45,11 @@ if (url.exists(stormDataURL)) {
 }
 
 #
+# If for some reasons the data files should no longer be available at the original 
+# location, copies can be found here.
+# https://github.com/bjoernsteffens/stormanalysis
+
+#
 # Read the bz2 file into a data frame.
 # fill = TRUE in case row lenght is not equal
 stormData <- read.table(stormDataFile, 
